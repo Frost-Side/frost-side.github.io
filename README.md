@@ -1,2 +1,3 @@
-# frost-side.github.io/portfolio
-My portfolio site
+# FrostSide portfolio site
+Welcome!  
+[Link to the site](https://frost-side.github.io)
