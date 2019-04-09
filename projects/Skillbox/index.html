@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Frontend-разработчик Дмитрий Алексеев - Главная</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic-ext" rel="stylesheet">
+    <link rel="stylesheet" href="./font/font-awesome/css/all.min.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+<div class="popup-container">
+    <div class="popup-container__form popup-form-block">
+        <h2 class="popup-form-block__heading">Форма заявки</h2>
+        <form action="./php/api.php" method="post" class="popup-form">
+            <input type="text" id="user_firstName" placeholder="Имя" class="popup-form__input" required>
+            <input type="text" id="user_phoneNumber" placeholder="Телефон" class="popup-form__input" required>
+            <input type="submit" value="Заказать проект" class="orange-button popup-form__submit-button">
+            <div class="popup-form__inline-flex-row">
+                <input type="checkbox" id="agree-personal-data" class="popup-form__checkbox">
+                <label for="agree-personal-data" class="popup-form__label">Я&nbsp;согласен с&nbsp;
+                    <a href="#" class="popup-form__label-link">условиями
+                    обработки персональных данных</a></label>
+            </div>
+        </form>
+    </div>
+</div>
+<header class="header">
+    <div class="header__container">
+        <nav class="header__nav nav">
+            <a href="#" class="nav__link">Услуги</a>
+            <a href="#" class="nav__link">Портфолио</a>
+            <a href="#" class="nav__link">Стоимость</a>
+        </nav>
+        <div class="header__telephone-button-block">
+            <a href="tel:+7(499)995-55-77" class="header__telephone">+7 (499) 995-55-77</a>
+            <a href="#" class="telephone-order-button">Заказать звонок</a>
+        </div>
+    </div>
+</header>
+<section class="about-me">
+    <div class="about-me__container">
+        <div class="about-me__heading-block">
+            <h1 class="about-me__heading">Дмитрий Алексеев</h1>
+            <p class="about-me__subheading-text">Frontend-разработчик и&nbsp;веб-верстальщик</p>
+            <a href="#" class="about-me__know-better orange-button">Узнать больше</a>
+        </div>
+    </div>
+</section>
+<section class="im-doing">
+    <div class="im-doing__container">
+        <h2 class="im-doing__heading">Что я делаю</h2>
+        <div class="im-doing__flex-row">
+            <div class="im-doing__flex-item">
+                <div class="im-doing__image im-doing__image--tools-bg"></div>
+                <p class="im-doing__paragraph">Вёрстка лендинг&mdash;страниц<br>
+                    и&nbsp;сайтов любой сложности</p>
+            </div>
+            <div class="im-doing__flex-item">
+                <div class="im-doing__image im-doing__image--responsive-bg"></div>
+                <p class="im-doing__paragraph">Адаптивная вёрстка под все<br>
+                    браузеры и&nbsp;устройства</p>
+            </div>
+            <div class="im-doing__flex-item">
+                <div class="im-doing__image im-doing__image--programming-bg"></div>
+                <p class="im-doing__paragraph">Frontend&mdash;разработка<br>
+                    и&nbsp;программирование</p>
+            </div>
+            <div class="im-doing__flex-item">
+                <div class="im-doing__image im-doing__image--coding-bg"></div>
+                <p class="im-doing__paragraph">Исправление и&nbsp;доработка<br>
+                    существующей вёрстки</p>
+            </div>
+        </div>
+        <div class="im-doing__flex-row-center">
+            <a href="#" class="orange-button">Узнать больше</a>
+        </div>
+    </div>
+</section>
+<section class="my-works">
+    <div class="my-works__container">
+        <h2 class="my-works__heading">Примеры моих работ</h2>
+        <div class="my-works__flex-row">
+            <a href="#" class="my-works__link">
+                <div class="my-works__flex-item">
+                    <div class="my-works__image my-works__image--vera-antonova-bg"></div>
+                    <p class="my-works__paragraph">Сайт психолога Веры Антоновой</p>
+                </div>
+            </a>
+            <a href="#" class="my-works__link">
+                <div class="my-works__flex-item">
+                    <div class="my-works__image my-works__image--kids-shop-bg"></div>
+                    <p class="my-works__paragraph">Сайт магазина детской одежды</p>
+                </div>
+            </a>
+            <a href="#" class="my-works__link">
+                <div class="my-works__flex-item">
+                    <div class="my-works__image my-works__image--fish-shop-bg"></div>
+                    <p class="my-works__paragraph">Сайт магазина &laquo;Рыболов&raquo;</p>
+                </div>
+            </a>
+        </div>
+        <div class="my-works__flex-row-center">
+            <a href="#" class="orange-button">Заказать проект</a>
+        </div>
+    </div>
+</section>
+<section class="attention-block">
+    <div class="attention-block__container">
+        <h2 class="attention-block__heading">Адаптивная вёрстка под все устройства
+            и&nbsp;браузеры от&nbsp;1000 рублей всего за&nbsp;4&nbsp;часа.*</h2>
+        <p class="attention-block__paragraph">Срок и&nbsp;стоимость могут отличаться от&nbsp;заявленных и&nbsp;рассчитываются
+            индивидуально,<br>
+            в&nbsp;зависимости от&nbsp;сложности задач.</p>
+    </div>
+</section>
+<footer class="footer">
+    <div class="footer__container">
+        <div class="footer-upper-block">
+            <nav class="footer-nav">
+                <a href="#" class="footer-nav__link">Услуги</a>
+                <a href="#" class="footer-nav__link">Портфолио</a>
+                <a href="#" class="footer-nav__link">Стоимость</a>
+            </nav>
+            <div class="footer-upper-block__info-block">
+                <a href="tel:+7(499)995-77-55" class="footer__info-link"><span class="footer__info-link--icon"><i
+                        class="fas fa-phone"></i></span>+7 (499) 995-77-55</a>
+                <a href="mailto:dmitry@alekseev.com" class="footer__info-link"><span class="footer__info-link--icon"><i
+                        class="fas fa-envelope"></i></span>dmitry@alekseev.com</a>
+            </div>
+            <div class="footer-upper-block__socials">
+                <a href="#" class="orange-button footer-upper-block__offer-call">Заказать звонок</a>
+                <div class="footer-upper-block__socials-row">
+                    <a href="#" class="footer-upper-block__social-link"><i class="fab fa-vk"></i></a>
+                    <a href="#" class="footer-upper-block__social-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="footer-upper-block__social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="footer-upper-block__social-link"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright-block">
+        <div class="copyright-block__container">
+            <p class="copyright-block__paragraph">&copy;&nbsp;Дмитрий Алексеев, 2016&nbsp;&mdash; 2018</p>
+        </div>
+    </div>
+</footer>
+<script src="./js/main.js" defer></script>
+</body>
+</html>

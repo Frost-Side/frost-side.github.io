@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="font/font__names.css">
+    <link rel="stylesheet" href="font/font-awesome/css/all.css">
+    <title>TwoBytes Consulting</title>
+</head>
+<body>
+
+<header class="header">
+    <div class="header__flex-container container">
+        <div class="header__logo logo">
+            <a href="#"><img src="img/logo.png" alt="TwoBytes Logo"></a>
+        </div>
+        <nav class="header__navigation navigation">
+            <a href="#" class="navigation__link navigation__link--active">HOME</a>
+            <a href="#" class="navigation__link">ABOUT US</a>
+            <a href="#" class="navigation__link">JOBS</a>
+            <a href="#" class="navigation__link">CLIENTS</a>
+            <a href="#" class="navigation__link">EMPLOYERS</a>
+            <a href="#" class="navigation__link">CONTACT US</a>
+        </nav>
+    </div>
+    <section class="search-for">
+        <div class="container">
+            <h2 class="search-for__heading">I’m looking for..</h2>
+            <form action="#" class="search-for__form form">
+                <div class="form__flex-row-container">
+                    <div class="form__job-input-shadow-block form__job-input-shadow-block--grey">
+                        <input type="text" class="form__job-input" required placeholder="Enter a Job Description">
+                    </div>
+                    <div class="form__submit-button-shadow-block form__submit-button-shadow-block--blue">
+                        <button type="submit" class="form__submit-button"><i class="fas fa-search form__submit-button-icon"></i>Search</button>
+                    </div>
+                </div>
+                <div class="form__row-container">
+                    <div class="form__checkbox-block">
+                        <div class="form__input-label-block">
+                            <div class="form__input-checkbox-shadow-block"></div>
+                            <input class="form__input-checkbox" type="checkbox" name="type of work" id="full-time">
+                            <label class="form__label" for="full-time">Full Time</label>
+                        </div>
+                        <div class="form__input-label-block">
+                        <div class="form__input-checkbox-shadow-block"></div>
+                            <input class="form__input-checkbox" type="checkbox" name="type of work" id="part-time">
+                            <label class="form__label" for="part-time">Part Time&nbsp;/ Casual&nbsp;/ Freelance</label>
+                        </div>
+                    </div>
+                    <div class="form__select-location">
+                        <label for="location-name" class="form__label-select">
+                            <select class="form__select" name="Location name" id="location-name" required>
+                                <option value="" disabled selected>Select your Location</option>
+                                <option value="Moscow">Moscow</option>
+                                <option value="New-York">New-York</option>
+                                <option value="Berlin">Berlin</option>
+                            </select>
+                        </label>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+</header>
+<div class="separator"></div>
+<section class="intro">
+    <div class="container intro__container">
+        <h3 class="intro__heading intro__heading--font-italic">We&rsquo;re leaders&nbsp;in</h3>
+        <h2 class="intro__heading intro__heading--font-size-big">Creative Digital Recruitment</h2>
+        <div class="intro__heading-separator"></div>
+        <p class="intro__paragraph">Based in&nbsp;Surry Hills, the creative hub of&nbsp;Sydney we&nbsp;are surrounded by&nbsp;creativity
+            and that reflects on&nbsp;the type of&nbsp;jobs we&nbsp;recruit for.</p>
+        <button class="intro__button">Find out more about&nbsp;us!</button>
+    </div>
+</section>
+<div class="separator"></div>
+<section class="subscribe">
+    <div class="container subscribe__container">
+        <h2 class="subscribe__heading">Subscribe to&nbsp;our Job Seeker Mailing List</h2>
+        <form action="#" class="subscribe__form subscribe-form">
+            <input type="email" class="subscribe-form__input" required placeholder="Enter Your Email Address">
+            <button class="subscribe-form__button" type="submit"><i class="fas fa-envelope"></i></button>
+        </form>
+    </div>
+</section>
+<div class="separator"></div>
+<footer class="footer">
+    <div class="container footer__container">
+        <a href="mailto:hello@twobytes.com.au" class="footer__mail-link"><i
+                class="far fa-envelope footer__mail-icon"></i>hello@twobytes.com.au</a>
+        <div class="footer__flex-container">
+            <div class="footer__bottom-left-block">
+                <p class="footer__paragraph">Copyright &copy;&nbsp;2014 Two Bytes Consulting. <a href="#"
+                                                                                                 class="footer__link">Terms
+                    &amp;&nbsp;Policies.</a></p></div>
+            <div class="footer__bottom-right-block">
+                <img src="img/socials.png" alt="Socials">
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
