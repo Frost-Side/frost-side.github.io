@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700&subset=cyrillic-ext');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+@import "someResets"; //someResets.less - resetting padding and margin for <h1-h6>, <p>, <button>
+@import "colorScheme"; //colorScheme.less - site's colors
+@import "animations"; //animations.less - site's CSS3 animations
+
+@media screen {
+  @import "style320px"; //style320px.less - importing styles (320px)
+  @import "style768px"; //style768px.less - importing styles (768px to 1024px)
+  @import "style1024px"; //style768px.less - importing styles (1024px to 1440px)
+  @import "style1440px"; //style768px.less - importing styles (1440px to 1920px)
+  @import "style1920px"; //style768px.less - importing styles (1920px)
+}

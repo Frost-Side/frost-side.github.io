@@ -1,0 +1,162 @@
+@import "colorScheme";
+
+@media (min-width: 768px) {
+  .button {
+    width: 200px;
+    font-size: 14px;
+  }
+  .my-photo {
+    width: 150px;
+    height: 150px;
+  }
+  .top-block-fixed {
+    &__container {
+      height: 60px;
+      padding: 0 20px;
+    }
+  }
+  .header {
+    &__container {
+      padding-top: 60px;
+    }
+    &__full-height-block {
+      min-height: 100vh;
+    }
+  }
+  .about-me-text {
+    font-size: 20px;
+    margin-bottom: 34px;
+    &--wide-width {
+      width: 540px;
+    }
+    &--regular-width {
+      width: 350px;
+    }
+  }
+  .svg-block {
+    width: 120px;
+  }
+  .my-stack {
+    margin-top: -60px;
+    &__container {
+      padding-top: 60px;
+    }
+  }
+  .psd-works {
+    margin-top: -60px;
+    &__container {
+      padding-top: 60px;
+    }
+  }
+  .project-block {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    &:hover {
+      .project-block__img {
+        &--box-shadow-left-to-right {
+          .projectBlockImgBoxShadowLeftToRight();
+        }
+        &--box-shadow-right-to-left {
+          .projectBlockImgBoxShadowRightToLeft();
+        }
+      }
+    }
+    &__container {
+      display: flex;
+      min-height: 440px;
+      &--bg-primary-color-left-to-right {
+        background: rgb(255,255,255); /* Old browsers */
+        background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(145,207,201,1) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 50%,rgba(145,207,201,1) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 50%,rgba(145,207,201,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#91cfc9',GradientType=1 ); /* IE6-9 */
+      }
+      &--bg-primary-color-right-to-left {
+        background: rgb(145,207,201); /* Old browsers */
+        background: -moz-linear-gradient(left, rgba(145,207,201,1) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(145,207,201,1) 0%,rgba(255,255,255,1) 50%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(145,207,201,1) 0%,rgba(255,255,255,1) 50%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#91cfc9', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+      }
+    }
+    &__heading {
+      width: 100%;
+      text-align: center;
+      font-size: 28px;
+      font-weight: 700;
+      color: @primaryCyanColorOfScheme;
+    }
+    &__item {
+      width: 50%;
+      padding: 10px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      position: relative;
+    }
+    &__img {
+      width: 100%;
+      -webkit-transition: box-shadow 0.3s;
+      -moz-transition: box-shadow 0.3s;
+      -ms-transition: box-shadow 0.3s;
+      -o-transition: box-shadow 0.3s;
+      transition: box-shadow 0.3s;
+      .projectBlockImgBoxShadowNone();
+      &-container {
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+  .number-block {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    &__number-text {
+      font-size: 250px;
+      font-weight: 700;
+      color: rgba(0,0,0,0.05);
+    }
+  }
+  .mobile-project-block {
+    display: none;
+  }
+  .own-works {
+    margin-top: -60px;
+    &__container {
+      padding-top: 60px;
+    }
+  }
+  .study-works {
+    margin-top: -60px;
+    &__container {
+      padding-top: 60px;
+    }
+  }
+  .commercial-works {
+    margin-top: -60px;
+    &__container {
+      padding-top: 60px;
+    }
+    &__text {
+      font-size: 36px;
+    }
+  }
+  .certificates {
+    margin-top: -60px;
+    &__container {
+      padding-top: 60px;
+    }
+  }
+}

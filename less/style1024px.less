@@ -1,0 +1,61 @@
+@import "colorScheme";
+
+@media (min-width: 1024px) {
+  .side-menu-trigger {
+    display: none;
+  }
+
+  .main-navigation {
+    display: flex;
+
+    &__link {
+      margin-left: 10px;
+      font-size: 14px;
+      -webkit-transition: color 0.3s;
+      -moz-transition: color 0.3s;
+      -ms-transition: color 0.3s;
+      -o-transition: color 0.3s;
+      transition: color 0.3s;
+
+      &:hover {
+        color: @primaryCyanColorOfScheme;
+      }
+    }
+  }
+
+  .section-heading {
+    font-size: 28px;
+    margin-top: 30px;
+
+    &-underline {
+      width: 150px;
+      margin: 3px auto 30px;
+    }
+  }
+
+  .svg-block {
+    width: 150px;
+  }
+
+  .certificates {
+    &__link {
+      width: 300px;
+      height: 200px;
+    }
+  }
+
+  .footer {
+    &__row {
+      height: 60px;
+    }
+
+    &__svg {
+      width: 40px;
+      height: 40px;
+    }
+
+    &__link {
+      font-size: 24px;
+    }
+  }
+}
