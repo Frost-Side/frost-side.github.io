@@ -45,8 +45,4 @@ $(document).ready(function () {
     let scrollPos = $(hrefId).offset().top;
     $('html, body').animate({scrollTop: scrollPos}, 1000);
   });
-
-  $('.lazyload').each(function (el, index) {
-    $(el).lazy();
-  })
 });
